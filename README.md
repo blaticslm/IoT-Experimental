@@ -6,6 +6,10 @@ using python [pip](https://pip.pypa.io/en/stable/) to install sockets
  ```Bash
  pip install sockets
  ```
+## attentions
+- The IP address of server is ephmeral, so the client's IP address should also be changed constantly
+- The [Computing Engine](https://cloud.google.com/compute) from [Google Cloud Platform](https://cloud.google.com/) is used as the server
+
 
 ## Basic Code
 Before doing data transmitting, the basic chatroom functions are shown below. 
@@ -28,7 +32,7 @@ import socket
 import select
 
 Header_length = 10    #message header lenght
-IP = socket.gethostbyname(socket.gethostname()) #IP address
+IP = socket.gethostbyname(socket.gethostname()) #get server local IP address.
 Port = 3306    #TCP port
 
 #Internet transmission initialized: IPv4 (AF_INET), TCP(SOCK_STEAM)
