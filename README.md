@@ -29,18 +29,9 @@ The require package is installed via [pip](https://pip.pypa.io/en/stable/)
 ```Bash
 pip install psutil
 ```
+## Extension code
+- The server does not change. 
+- This is the computer individual cores monitoring codes in the Computer Monitor folder:
+> computer_status.py
 
-- The chat_client changes: 
-
->The line should be added.
- ```python
- import psutil 
- ```
->The line can be modified.
-  ```python
-message = input(f"{my_username}:")
- ```
-↓
- ```python
-message = str(psutil.cpu_percent(interval = 2, percpu = True)) #individual core info
- ```
+> Status_data_record.py
