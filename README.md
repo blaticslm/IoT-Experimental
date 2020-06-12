@@ -24,7 +24,8 @@ using python [pip](https://pip.pypa.io/en/stable/) to install sockets
 ## Extension
 When sending the data to server, the chat client should be modified in one place. 
 > the example is sending the computer cpu running status
-The require package is installed via [pip](https://pip.pypa.io/en/stable/)
+
+>The require package is installed via [pip](https://pip.pypa.io/en/stable/)
 ```Bash
 pip install psutil
 ```
