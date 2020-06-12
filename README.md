@@ -25,12 +25,22 @@ using python [pip](https://pip.pypa.io/en/stable/) to install sockets
 When sending the data to server, the chat client should be modified in one place. 
 > the example is sending the computer cpu running status
 
->The require package is installed via [pip](https://pip.pypa.io/en/stable/)
+The require package is installed via [pip](https://pip.pypa.io/en/stable/)
 ```Bash
 pip install psutil
 ```
 
+- The changes: 
 
 in chat-client.py, the following lines should be added
  ```python
  import psutil 
+ ```
+ and the following line can be modified to
+  ```python
+message = input(f"{my_username}:")
+ ```
+↓
+ ```python
+message = str(psutil.cpu_percent(interval = 2, percpu = True)) #individual core info
+ ```
