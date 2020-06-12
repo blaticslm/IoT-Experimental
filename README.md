@@ -13,8 +13,12 @@ using python [pip](https://pip.pypa.io/en/stable/) to install sockets
 
 ## Basic Code
 - Before doing data transmitting, the basic chatroom should be created. 
-- The codes are listed below:
+- The codes are listed in the Basic Chatroom folder:
 >new_server.py
+
+>new_msgwindow.py
+
+>chat-client.py
 
 
 ## Extension
