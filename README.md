@@ -30,13 +30,13 @@ The require package is installed via [pip](https://pip.pypa.io/en/stable/)
 pip install psutil
 ```
 
-- The changes: 
+- The chat_client changes: 
 
->In chat-client.py, the following lines should be added.
+>The line should be added.
  ```python
  import psutil 
  ```
->The following line can be modified.
+>The line can be modified.
   ```python
 message = input(f"{my_username}:")
  ```
