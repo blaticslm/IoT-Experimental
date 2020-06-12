@@ -7,7 +7,8 @@ using python [pip](https://pip.pypa.io/en/stable/) to install sockets
  pip install sockets
  ```
 
-## Code
+## Basic Code
+Before doing data transmitting, the basic chatroom functions are shown below. 
 - socket server: 
  ```python
 ########################
