@@ -32,11 +32,11 @@ pip install psutil
 
 - The changes: 
 
-in chat-client.py, the following lines should be added
+>In chat-client.py, the following lines should be added.
  ```python
  import psutil 
  ```
- and the following line can be modified to
+>The following line can be modified.
   ```python
 message = input(f"{my_username}:")
  ```
